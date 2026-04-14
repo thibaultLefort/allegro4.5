@@ -8,10 +8,20 @@ Une fois installé, ça fonctionne comme n'importe quelle bibliothèque système
 ## Prérequis
 
 - macOS sur Apple Silicon (M1 / M2 / M3 / M4)
-- Xcode Command Line Tools : `xcode-select --install`
-- CMake : `brew install cmake`
+- [Homebrew](https://brew.sh)
 
 ## Installation
+
+### Homebrew (recommandé)
+
+```bash
+brew tap thibaultLefort/allegro4
+brew install allegro4
+```
+
+### Depuis les sources
+
+Nécessite Xcode Command Line Tools (`xcode-select --install`) et CMake (`brew install cmake`).
 
 ```bash
 ./install.sh
@@ -71,10 +81,20 @@ After install it works like any system library — include, link, done.
 ## Requirements
 
 - macOS on Apple Silicon (M1 / M2 / M3 / M4)
-- Xcode Command Line Tools: `xcode-select --install`
-- CMake: `brew install cmake`
+- [Homebrew](https://brew.sh)
 
 ## Install
+
+### Homebrew (recommended)
+
+```bash
+brew tap thibaultLefort/allegro4
+brew install allegro4
+```
+
+### From source
+
+Requires Xcode Command Line Tools (`xcode-select --install`) and CMake (`brew install cmake`).
 
 ```bash
 ./install.sh
