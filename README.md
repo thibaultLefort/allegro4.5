@@ -49,7 +49,7 @@ END_OF_MAIN()
 Cette macro est obligatoire avec Allegro sur macOS — sans elle, le programme ne démarrera pas.
 
 ```bash
-gcc main.c $(allegro-config --libs) -o monprogramme
+gcc main.c $(allegro-config --libs) $(allegro-config --cflags) -o monprogramme
 ./monprogramme
 ```
 
